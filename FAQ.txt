@@ -1,0 +1,99 @@
+﻿ There are only 2 major portions,
+  that you need to completed, before you to start review  my Pet Shop project.
+
+ First, 
+  Please ensure that you completed set up the development environment.
+  ( with Node.js / Truffle/ Ganache / VScode/ Chrome +MetaMask/ Windows 10 ) 
+
+   
+  -Create a “pet shop”directory:
+      
+    Run "npm install -g truffle" for the truffle framework and 
+    
+    Run  "truffle unbox pet-shop" by command line.
+    It will download the pet-shop box, this also takes care of installing the necessary dependencies.
+   
+   Run  "npm install -E zeppelin-solidity" command line.
+   (OpenZeppelin is a library for writing secure Smart Contracts on Ethereum)
+
+   Unzip my "pet-shop-tutorial".WinZip file to in your "pet shop" directory.
+
+
+ Second,
+
+  Ready for  truffle complie & migrate.
+   
+  Run  "truffle.cmd compile" by command line.
+
+  - Launch Ganache (double click the icon to launch the application.)
+   
+       /* 
+         Ganache is a graphical application that runs a personal blockchain that can be used for testing purposes. 
+         It runs on 127.0.0.1:7545.
+         Before performing the deployment, you need to make sure that there is a blockchain that can be used.
+       */
+
+  Run "truffle.cmd  migrate --reset" by command line.
+
+  Run "truffle.cmd test"  by command line.
+
+
+  Run "npm run dev" by command line.
+
+      /*
+       Initially, you need to add some pets thru "List Pets"   panel to my "Pet Shop" store, So,  other people
+       may able to adopt a pet from there.
+
+    */
+
+  
+
+    Have some fun
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ FAQ:
+
+ 
+   -How to setup the development environment for the Pet shop project. (with Operating System: Windows 10)
+
+     Following packages are must be installed: 
+
+     -Node.js //Latest LTS Version: 8.11.3 (includes npm 5.6.0)
+     -Truffle  //Truffle v4.1.12 (core: 4.1.12) /Solidity v0.4.24 (solc-js)
+     -Ganache //ganache v1.1.0 
+     -Chrome with the MetaMask extension // v4.9.2 
+
+
+   Notes:
+
+   -Download and install nodejs: (from http://nodejs.cn/download/)
+    after installing nodejs, open the command line window to execute,Install Truffle globally: 
+ 
+   "npm install -g truffle"  
+ 
+    -Download and install Ganache:   (  https://github.com/trufflesuite/ganache/releases/download/v1.1.0/ganache-setup-1.1.0.exe )   
+     We also will be using Ganache (/ganache), a personal blockchain for Ethereum development you can use to deploy contracts,
+     develop applications, and run tests.      
+ 
+    -Download and install VSCode:   (  https://code.visualstudio.com/ )
+
+     -How add Metamask extension to Google Chrome browser
+
+       Install MetaMask
+
+       The easiest way to interact with Dapp is through MetaMask
+       (Download address: https://metamask.io/)
+       • 1 Install MetaMask in your Chrome browser.
+       • 2 Once installed, it exists as a Chrome browser plugin
+       • 3 Agree, accept the terms
+       • 4 As shown below, click on "Import Existing DEN"
+        return to the main interface of ganache, there is a line of 12 words of mnemonic under Accounts, as shown below
+       • 5 Copy the mnemonic and paste it into the Wallet Seed text box in the MetaMask interface.
+       • 6 set a password, click OK
+       • 7 Click on Main Network in the upper left corner of MetaMask and click Custom RPC
+       • 8 Enter “http://127.0.0.1:7545” in the New RPC URL, click Save
+       • 9 return to the main MetaMask interface, you can see the account information
+
+
