@@ -25,3 +25,5 @@
 
 ## Initially, you need to add some pets thru "List Pets"  panel to my "Pet Shop" store, So, other people may able to adopt a pet from there.
 
+## Note:
+`Use browser api that randomly generates an IPFS NODE directly in the browser`
